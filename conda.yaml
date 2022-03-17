@@ -1,0 +1,71 @@
+# conda env_name create -f conda.yaml
+# why conda.yaml: mlflow needs conda.yaml to install dependency and in such way we dont need req.txt
+# this does same as req.txt does
+# conda activate ./Name (MLflow_CNN)
+
+name: MLflow_CNN
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2022.2.1=hecd8cb5_0
+  - certifi=2021.10.8=py37hecd8cb5_2
+  - libcxx=12.0.0=h2f01273_0
+  - libffi=3.3=hb1e8313_2
+  - ncurses=6.3=hca72f7f_2
+  - openssl=1.1.1m=hca72f7f_0
+  - pip=21.2.2=py37hecd8cb5_0
+  - python=3.7.11=h88f2d9e_0
+  - readline=8.1.2=hca72f7f_1
+  - setuptools=58.0.4=py37hecd8cb5_0
+  - sqlite=3.37.2=h707629a_0
+  - tk=8.6.11=h7bc2e8c_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h4dc903c_4
+  - pip:
+    - alembic==1.7.7
+    - charset-normalizer==2.0.12
+    - click==8.0.4
+    - cloudpickle==2.0.0
+    - databricks-cli==0.16.4
+    - docker==5.0.3
+    - entrypoints==0.4
+    - flask==2.0.3
+    - gitdb==4.0.9
+    - gitpython==3.1.27
+    - greenlet==1.1.2
+    - gunicorn==20.1.0
+    - idna==3.3
+    - importlib-metadata==4.11.3
+    - importlib-resources==5.4.0
+    - itsdangerous==2.1.1
+    - jinja2==3.0.3
+    - mako==1.2.0
+    - markupsafe==2.1.1
+    - mlflow==1.24.0
+    - numpy==1.21.5
+    - packaging==21.3
+    - pandas==1.3.5
+    - prometheus-client==0.13.1
+    - prometheus-flask-exporter==0.19.0
+    - protobuf==3.19.4
+    - pyparsing==3.0.7
+    - python-dateutil==2.8.2
+    - pytz==2021.3
+    - pyyaml==6.0
+    - querystring-parser==1.2.4
+    - requests==2.27.1
+    - scipy==1.7.3
+    - six==1.16.0
+    - smmap==5.0.0
+    - sqlalchemy==1.4.32
+    - sqlparse==0.4.2
+    - tabulate==0.8.9
+    - tqdm==4.63.0
+    - typing-extensions==4.1.1
+    - urllib3==1.26.9
+    - websocket-client==1.3.1
+    - werkzeug==2.0.3
+    - zipp==3.7.0
+
+
