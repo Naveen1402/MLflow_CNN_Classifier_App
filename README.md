@@ -1,4 +1,5 @@
 # MLflow-project-template
+MLflow also provide docker functionality as well.
 MLflow project template
 
 ## STEPS -
